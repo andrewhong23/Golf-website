@@ -1,0 +1,140 @@
+
+body {
+    /* background-color: white; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+html {
+    margin: 100px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0 0 15px, black; 
+}
+
+/* #header-background {
+    width: 100%;
+    height: 100%;
+    background-image: url(../Golf-website/images/taylormadetest.jpg);
+} */
+
+header .nav li img {
+    margin-left: 250px;
+    margin-top: -40px;
+}
+/* 
+/* header .nav {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+} */
+
+header .nav li{
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    float: left;
+}
+
+.head-nav {
+    margin-right: 40px;
+    padding: 0;
+}
+
+header ul .head-nav {
+    float: right;
+    
+}
+
+#background-image {
+    background-image: url("../Golf-website/images/HEADER-DRIVERS.jpg");
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 200px;
+    width: 80%;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+ .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 30px;
+     
+} 
+
+
+.flex-container-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+   
+}
+
+p {
+    max-width: 28rem;
+}
+
+ /* .flex-container .club-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width:450px;
+    height: 100px;
+    /* background-color: white; */
+    /* text-align: center;
+}  */ */
+
+#clubs-img {
+    
+    
+    width: 800px;
+    height: 800px; 
+}
+
+.flex-container-2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.ball-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width:450px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+
